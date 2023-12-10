@@ -33,4 +33,39 @@
     "version" : "Latest",
     "type" : "schema"
   } ]
+}, {
+  "baseItem" : {
+    "id" : "_DpitYGM6Eei2dIwxf0UwSQ",
+    "version" : "1.0",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataMasking",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQualityDependencies",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_MCgVMFg-EeifmvXFZXoLjg - metadataCustomers",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
 } ]
