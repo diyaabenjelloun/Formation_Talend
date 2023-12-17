@@ -1,5 +1,44 @@
 [ {
   "baseItem" : {
+    "id" : "_9PYYwHikEeqZN5fwy26K9Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_1drUAHjFEeqZN5fwy26K9Q",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_so8H8HjFEeqZN5fwy26K9Q",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataMasking",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQualityDependencies",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_1drUAHjFEeqZN5fwy26K9Q - movielist",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_DpitYGM6Eei2dIwxf0UwSQ",
     "version" : "0.1",
     "type" : "job"
