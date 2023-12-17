@@ -1,5 +1,7 @@
 {
   "version" : "1.0.0",
   "disable" : null,
-  "requiredInstallableUnits" : [ ]
+  "requiredInstallableUnits" : [ {
+    "id" : "org.talend.lite.esb.apidesigner.feature.feature.group"
+  } ]
 }
