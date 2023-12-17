@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:TalendXMLMap="http://www.talend.org/xmlmap" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" name="Default"/>
+  <context confirmationNeeded="false" hide="false" name="Default"/>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -43,7 +43,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:s7JWFg1lvLd1pFdgKFYLINSF6nvWW7s7eYUr5wpU"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:vjXrsli4dqYNmCGokUtiRwc/VXT36ojM26lcCAbF"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -58,7 +58,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/API Restauration/Talend-Studio-20221003_1400-V8.0.1/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/dbenjelloun/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -78,7 +78,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:7IMVofrFfMFn89NmOfd4sWYff2rTBJCNBLvMqqmS"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:GAtL0hFJEkeCHzOgF1yGso1a88ERlHtc1vMv+q9h"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -97,12 +97,7 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
-    <routinesParameter id="_EaR1cF1XEeqeAIP7yebqBw" name="DQTechnical"/>
-    <routinesParameter id="_EZ4z4F1XEeqeAIP7yebqBw" name="DataMasking"/>
     <routinesParameter id="_EEmgYF1XEeqeAIP7yebqBw" name="DataOperation"/>
-    <routinesParameter id="_EaFoMF1XEeqeAIP7yebqBw" name="DataQualityDependencies"/>
-    <routinesParameter id="_EZ_hkF1XEeqeAIP7yebqBw" name="DataQuality"/>
-    <routinesParameter id="_EaMV4F1XEeqeAIP7yebqBw" name="DqStringHandling"/>
     <routinesParameter id="_EYyAoF1XEeqeAIP7yebqBw" name="Mathematical"/>
     <routinesParameter id="_EY7xoF1XEeqeAIP7yebqBw" name="Numeric"/>
     <routinesParameter id="_EZDtcF1XEeqeAIP7yebqBw" name="Relational"/>
@@ -187,7 +182,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_1drUAHjFEeqZN5fwy26K9Q"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="FILE" name="DBNAME" value="&quot;C:/SQLiteStudio/movies&quot;"/>
+    <elementParameter field="FILE" name="DBNAME" value="&quot;C:/Users/dbenjelloun/Downloads/sqlitestudio_x64-3.4.4/SQLiteStudio/movies&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="SQLITE"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;movielist&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -299,7 +294,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_1drUAHjFEeqZN5fwy26K9Q"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="FILE" name="DBNAME" value="&quot;C:/SQLiteStudio/movies&quot;"/>
+    <elementParameter field="FILE" name="DBNAME" value="&quot;C:/Users/dbenjelloun/Downloads/sqlitestudio_x64-3.4.4/SQLiteStudio/movies&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="SQLITE"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;movielist&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
@@ -399,7 +394,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_1drUAHjFEeqZN5fwy26K9Q"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="FILE" name="DBNAME" value="&quot;C:/SQLiteStudio/movies&quot;"/>
+    <elementParameter field="FILE" name="DBNAME" value="&quot;C:/Users/dbenjelloun/Downloads/sqlitestudio_x64-3.4.4/SQLiteStudio/movies&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="SQLITE"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;movielist&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
@@ -531,13 +526,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3fea9827-b512-4e61-9b27-aa3dcba52c75"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>QFGZlolGj0G1wsS2/Ru53f0GGPa7+EbMOUTaV+Xqv3SBv5JCqh3ni4usbgWE4Gm+38jAma/LJjaY&#13;
-Kl23sl2sfw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6ca745b3-413c-435d-ae79-670937b4897e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/w8qlCu30NH0B2oygCcrnhflQBzK4XsYfMXpDaVx0Gh3gfbIi9jTyJQZeJ0z+KEBsTm4DhcNzV6W&#13;
-sBXjPBuh9w==</DigestValue></Reference></SignedInfo><SignatureValue>D77MMX3ZrC+NdVTVtYMz7Oge7Z36Vs54vcG4Dp8Pf9y3wsHS38wFWWFT3Ph63uv+39+AGKygwmWt&#13;
-lQChW+jB/XhDat14CvsAw5m4KeVQ+T4pGsQ8Q7XAFS6ZCMtG2e2Vn2YQuMbKMDMgd3vGss8aILcX&#13;
-TVrXzsJMxYT+7Ab33kxp3/GCpcIc5yZ2cqfzBvHM/UHhyjRUs5cwebog37GGUSDYgZ2keUk9QJm8&#13;
-JxHJVCMJ4rSWzzS0aPCcqmnsNYy1qhCwMi2RoQ5499WgJJUG3uGJAZ/OwUJLpWWa5QsTZB21h9aR&#13;
-KwoC1I4PA7K7Dg86E83XUthJmw3ZpLXLI+XwLA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7fc07af2-4496-4bac-b95b-705393a7e733"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>c4eXIo1OgcMfW7eFrDEWh7cVI/xNCz7GS3LnQv87il6ahJa4XATjHM0YBoPb10BqQvX4NJrof/2H&#13;
+UTSmMLmKkw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c1ddea5a-5b94-4058-a436-e814555529f5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>VPIFZ7U4nSCQcgABUUNkiZFysEeCvmZ38UQpVMOrp3tNW24HQdWEI/pKJrXQskjUf9T+NEDO3sMr&#13;
+H0RP8cfZMQ==</DigestValue></Reference></SignedInfo><SignatureValue>CzG2a/1zSzakwE5gcZQqzzYlV4tRmLpxNZpjNOZGBEx+hIFFASp8AVriSaFxr8besarApOjZxKpR&#13;
+BSsxOGFRgbPioBOtov6Dl8zkxBDX1yozNx07wvGnbt6azd3lh9t+D07GMZn/pG+8Gou2Phh+ZGEq&#13;
+c3L9GupAPORv9iFSrCFcFpCJGp7c3g9vwatBgg0lDJ6x9xSPE3eyZRCrglJGWyaQoj1ACxcU09AZ&#13;
+DUXUGZ2CQhWNbCECoHs1hRD61sPKn2d9BK38fAn846GBYIMjNq3iqiiMmnKJM2qmO016DGsqNC2b&#13;
+agrDp+db1V7Ykrdd4PuRBw5hEGtdHHDZuaJwPQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -559,4 +554,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6ca745b3-413c-435d-ae79-670937b4897e" Target="#_3fea9827-b512-4e61-9b27-aa3dcba52c75"><Timestamp>2023-12-17 13:04:05</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c1ddea5a-5b94-4058-a436-e814555529f5" Target="#_7fc07af2-4496-4bac-b95b-705393a7e733"><Timestamp>2023-12-17 13:05:25</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
