@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" name="Default">
+  <context confirmationNeeded="false" hide="false" name="Default">
     <contextParameter comment="chemin d'accès au fichier à télécharger depuis Dropbox" internalId="_l71EgDiYEeuwqIe4ZPuevQ" name="parameter_download_path" prompt="parameter_download_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Resultats_Visionnage_Video.csv"/>
     <contextParameter comment="pourcentage de visionnage du film par un client" internalId="_l71EgTiYEeuwqIe4ZPuevQ" name="parameter_percent_to_pay_views" prompt="parameter_percent_to_pay_views?" promptNeeded="false" repositoryContextId="built-in" type="id_Float" value="0.2"/>
     <contextParameter comment="chemin d'accès au fichier à charger dans Dropbox" internalId="_l71EgjiYEeuwqIe4ZPuevQ" name="parameter_upload_path" prompt="parameter_upload_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Resultats_Visionnage_Video_Filtres.csv"/>
-    <contextParameter comment="jeton d'accès pour le compte Dropbox" internalId="_OwTxsG1KEey8s6iKwCrXsA" name="connection_dropbox_access_token" prompt="connection_dropbox_access_token?" promptNeeded="false" repositoryContextId="_UmAHsH-UEeSh_srZ_0iReQ" type="id_String" value="UAg_JP418AsAAAAAAAAAAW1njF9WfOTr0Tk848SqpmjvIbji4RVhM9x0IAlWwxHZ"/>
+    <contextParameter comment="jeton d'accès pour le compte Dropbox" internalId="_OwTxsG1KEey8s6iKwCrXsA" name="connection_dropbox_access_token" prompt="connection_dropbox_access_token?" promptNeeded="false" repositoryContextId="_UmAHsH-UEeSh_srZ_0iReQ" type="id_String" value="sl.Br1VIrFxvXG544e1MQBOHAq8haOBMB5O5mvX478CzHC6z5yjNEtKxPB9Ig4yNmRg1V5QQcE8zD5Bh-Op3ZVdk47CTGp8B9euVld608Ei9DiCTFs5o1I88PL-i-dLdsul983xe9w0Ocs_"/>
   </context>
-  <context confirmationNeeded="false" name="Developpment">
+  <context confirmationNeeded="false" hide="false" name="Developpment">
     <contextParameter comment="chemin d'accès au fichier à télécharger depuis Dropbox" internalId="_l71EgDiYEeuwqIe4ZPuevQ" name="parameter_download_path" prompt="parameter_download_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Resultats_Visionnage_Video.csv"/>
     <contextParameter comment="pourcentage de visionnage du film par un client" internalId="_l71EgTiYEeuwqIe4ZPuevQ" name="parameter_percent_to_pay_views" prompt="parameter_percent_to_pay_views?" promptNeeded="false" repositoryContextId="built-in" type="id_Float" value="0.2"/>
     <contextParameter comment="chemin d'accès au fichier à charger dans Dropbox" internalId="_l71EgjiYEeuwqIe4ZPuevQ" name="parameter_upload_path" prompt="parameter_upload_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Resultats_Visionnage_Video_Filtres_DEV.csv"/>
-    <contextParameter comment="jeton d'accès pour le compte Dropbox" internalId="_OwTxsG1KEey8s6iKwCrXsA" name="connection_dropbox_access_token" prompt="connection_dropbox_access_token?" promptNeeded="false" repositoryContextId="_UmAHsH-UEeSh_srZ_0iReQ" type="id_String" value="UAg_JP418AsAAAAAAAAAAW1njF9WfOTr0Tk848SqpmjvIbji4RVhM9x0IAlWwxHZ"/>
+    <contextParameter comment="jeton d'accès pour le compte Dropbox" internalId="_OwTxsG1KEey8s6iKwCrXsA" name="connection_dropbox_access_token" prompt="connection_dropbox_access_token?" promptNeeded="false" repositoryContextId="_UmAHsH-UEeSh_srZ_0iReQ" type="id_String" value="sl.Br1VIrFxvXG544e1MQBOHAq8haOBMB5O5mvX478CzHC6z5yjNEtKxPB9Ig4yNmRg1V5QQcE8zD5Bh-Op3ZVdk47CTGp8B9euVld608Ei9DiCTFs5o1I88PL-i-dLdsul983xe9w0Ocs_"/>
   </context>
-  <context confirmationNeeded="false" name="Production">
+  <context confirmationNeeded="false" hide="false" name="Production">
     <contextParameter comment="chemin d'accès au fichier à télécharger depuis Dropbox" internalId="_l71EgDiYEeuwqIe4ZPuevQ" name="parameter_download_path" prompt="parameter_download_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Resultats_Visionnage_Video.csv"/>
     <contextParameter comment="pourcentage de visionnage du film par un client" internalId="_l71EgTiYEeuwqIe4ZPuevQ" name="parameter_percent_to_pay_views" prompt="parameter_percent_to_pay_views?" promptNeeded="false" repositoryContextId="built-in" type="id_Float" value="0.2"/>
     <contextParameter comment="chemin d'accès au fichier à charger dans Dropbox" internalId="_l71EgjiYEeuwqIe4ZPuevQ" name="parameter_upload_path" prompt="parameter_upload_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Resultats_Visionnage_Video_Filtres_PROD.csv"/>
-    <contextParameter comment="jeton d'accès pour le compte Dropbox" internalId="_OwTxsG1KEey8s6iKwCrXsA" name="connection_dropbox_access_token" prompt="connection_dropbox_access_token?" promptNeeded="false" repositoryContextId="_UmAHsH-UEeSh_srZ_0iReQ" type="id_String" value="UAg_JP418AsAAAAAAAAAAW1njF9WfOTr0Tk848SqpmjvIbji4RVhM9x0IAlWwxHZ"/>
+    <contextParameter comment="jeton d'accès pour le compte Dropbox" internalId="_OwTxsG1KEey8s6iKwCrXsA" name="connection_dropbox_access_token" prompt="connection_dropbox_access_token?" promptNeeded="false" repositoryContextId="_UmAHsH-UEeSh_srZ_0iReQ" type="id_String" value="sl.Br1VIrFxvXG544e1MQBOHAq8haOBMB5O5mvX478CzHC6z5yjNEtKxPB9Ig4yNmRg1V5QQcE8zD5Bh-Op3ZVdk47CTGp8B9euVld608Ei9DiCTFs5o1I88PL-i-dLdsul983xe9w0Ocs_"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
@@ -60,7 +60,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:yf4sArvJlEJ/alCASY1oY46GgjqvB5ee5WFDk/og"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:vjXrsli4dqYNmCGokUtiRwc/VXT36ojM26lcCAbF"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -75,7 +75,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/stikhemirine/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/dbenjelloun/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -95,7 +95,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:ylatVTKdUPHMsv7qZtiTA6m49n2bYr/IvhXzCDdG"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:GAtL0hFJEkeCHzOgF1yGso1a88ERlHtc1vMv+q9h"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -122,12 +122,7 @@
     <routinesParameter id="_iojc0Ee3EeSjy-1b-KlPDA" name="TalendDataGenerator"/>
     <routinesParameter id="_iopjcEe3EeSjy-1b-KlPDA" name="TalendDate"/>
     <routinesParameter id="_io8eYEe3EeSjy-1b-KlPDA" name="TalendString"/>
-    <routinesParameter id="_ipGPYEe3EeSjy-1b-KlPDA" name="DataQuality"/>
-    <routinesParameter id="_ipQAYEe3EeSjy-1b-KlPDA" name="DqStringHandling"/>
-    <routinesParameter id="_ipVf8Ee3EeSjy-1b-KlPDA" name="DQTechnical"/>
     <routinesParameter id="_ipkJcEe3EeSjy-1b-KlPDA" name="SQLike"/>
-    <routinesParameter id="_mcersIL7EeWjeJx8C1QGpA" name="DataQualityDependencies"/>
-    <routinesParameter id="_CW1QkC5MEeaG6rBxve596Q" name="DataMasking"/>
     <routinesParameter id="_rlp5UEGJEeiSaslHUn7PCQ" name="TalendStringUtil"/>
   </parameters>
   <node componentName="tDropboxConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="96">
@@ -180,6 +175,8 @@
   </node>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="DYNAMIC" show="false" value=""/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="((Object)globalMap.get(&quot;row1.content&quot;))"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="true"/>
@@ -228,6 +225,7 @@
       <elementValue elementRef="DECODE" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DESTINATION" show="false" value=""/>
+    <elementParameter field="CHECK" name="USE_HEADER_AS_IS" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
     <elementParameter field="TEXT" name="LABEL" value="STOCKAGE_DONNEES"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -502,13 +500,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2e55f6c5-359d-435a-941e-e04d30769fa5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>FYBG4x1//DZwAfgUw2/yJmJB2/iNqlSgZFX2GLnBLQLQIKyelcVcNGy+StaYWjwtTSQrsz21sCCM&#13;
-uhkIZqCdvA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9a2749de-2b07-404b-b5d9-c9f695c5ae12"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>dClyWaEe1DwCEToI22qow8ht5yl60GZdYVJbzA+GNL8D+3nPXV+0t5CqQ+CZkCyJOKP0k9BlBYO/&#13;
-mn/3Ede9BQ==</DigestValue></Reference></SignedInfo><SignatureValue>M2CVbLvKebtGlaoTVy7YVHHY8pu6G8D1DhPo8nAuSX3DqquAxBBnbop5B87xjeG7hf6tjT+58+Zg&#13;
-5csANLqShx/yHvlDnlHxdJmSpAdW20G0KcWCN8lzfDkWD+U7k5p1vgY/er0qFlDmrIO0nat4dp+i&#13;
-rBOpJ+fdMq9f1l5tpOJcsUhUNmQqichut+xXswlTf4tNq9z6HqOjQHDeTCQUEe5BhASqX/yBLKXO&#13;
-VuATSEBtX1UH1VFNFVTi4NVCY2HPT07hksSZmKqqeXYRXCCahpD3aRN0MFRAgcz8sbDQ8JpJPGOh&#13;
-VlfQ1QNJKd9KUnppcMs2jasT1pLbRiYq99taGg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_fa2865f9-a474-426e-9995-d03b3beb5eff"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Rhvl1PQCrEymMNTMo4EXNB5dcYCnguybzr1J8sGMbqGoQs5rhdMOWR36FaYCxhKaOJET/XEoPh8p&#13;
+VR+7kVUGfw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_21faee20-a4fa-4d0e-8e66-03e6c62ce5b5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>nULUfcxrsFZ1+aG2S10c+a+yPrHJVJ1lb7d0NoZPCNUG7so2f+Ad5ZGFE+Pv5cWSdG3QaORusbAJ&#13;
+vRQSV0rS/Q==</DigestValue></Reference></SignedInfo><SignatureValue>L43yzRTrPcjQCRHvxXISxhIrqLhm3jQLaqZWfk51IgOToND1bDaR5qC+dJwslzk9ob9/Y8BePSei&#13;
+5KnLNtYZo8SWqtKkCXwbpjsIF2QVIpyI1YNbANcG4uPeEe9yCDvL33cI3dAMLrv4hZPkbKZWgJK4&#13;
+UfQzLR/6N25nIEdkYFHWm4E4CLiG28SZiRWxbEMYIj2+oW6FdfYigNfCLaUVvR++ToTn56GjKy22&#13;
+WC5fro3ZUNXXmZAFWiiKud8TvEpoy3zCMvzZz30lO2Dvbrqk1N2zHFmv/XYH0lZSLuw0/T8IUmJm&#13;
+ziQMfrj6zJ1Gj1JXNbEvJWPXVmiXleS8o7f09g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -530,4 +528,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9a2749de-2b07-404b-b5d9-c9f695c5ae12" Target="#_2e55f6c5-359d-435a-941e-e04d30769fa5"><Timestamp>2023-12-20 10:13:34</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_21faee20-a4fa-4d0e-8e66-03e6c62ce5b5" Target="#_fa2865f9-a474-426e-9995-d03b3beb5eff"><Timestamp>2023-12-20 10:15:35</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
